@@ -1,0 +1,26 @@
+mongoDBの起動
+mongod --config "C:\Program Files\MongoDB\Server\4.0\bin\mongodb.config"
+
+node.JS実行ファイル
+"C:\work\pg\nodejs\example\sampleApp\02\node_mongo02.js"
+
+URL
+localhost:3000
+
+=========================================================================
+mongoDB コマンド
+
+show collections
+show dbs
+db.COL.find()
+use posts
+
+参考URL
+node.js と mongodbで掲示板アプリを作ってみる
+http://ichi-bit.hateblo.jp/entry/2017/11/02/#3-%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92mongodb%E5%88%A9%E7%94%A8%E3%81%AB%E5%A4%89%E6%9B%B4
+
+Node.jsのMongoClientの仕様が変わってた
+https://qiita.com/mimizq/items/76d3a948acb33881c8db
+
+MongoDB3.xでdb.collection is not a function
+https://teratail.com/questions/106050
